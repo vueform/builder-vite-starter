@@ -27,7 +27,7 @@
 
 ### pnpm
 
-4. Run `pnpm install` to install dependencies
+4. Run `pnpm install --shamefully-hoist` to install dependencies
 5. Run `pnpm run dev` to start the server
 <br>
 
