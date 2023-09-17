@@ -1,7 +1,63 @@
-# Vue 3 + Vite
+<br>
+<a href="https://builder.vueform.com?ref=builder-vite-starter" target="_blank">
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<img src="./assets/images/logo.svg" width="228" alt="Vueform" title="Vueform" />
 
-## Recommended IDE Setup
+</a>
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+# Vueform Builder + Vite + Tailwind
+
+*Last tested with Vite 4.3.5.*
+
+## Installation
+
+1. Clone this repo with:<br>`git clone https://github.com/vueform/builder-vite-starter vueform-builder-vite-starter`
+2. Create a **Builder** project at [https://app.vueform.com](https://app.vueform.com?ref=builder-vite-starter)
+3. Replace `YOUR_API_KEY` in `vueform.config.js` with the **Public Key** you created
+
+### npm
+
+4. Run `npm install` to install dependencies
+5. Run `npm run dev` to start the server
+
+### yarn
+
+4. Run `yarn install` to install dependencies
+5. Run `yarn run dev` to start the server
+
+### pnpm
+
+4. Run `pnpm install` to install dependencies
+5. Run `pnpm run dev` to start the server
+<br>
+
+6. Go to `http://localhost:5173` and you should see Vueform Builder.
+
+---
+
+## About Vueform
+
+<a href="https://builder.vueform.com/demo?ref=builder-vite-starter">
+  <img align="center" src="https://github.com/vueform/multiselect/raw/main/assets/vueform-banner-new.png" alt="Vueform" title="Vueform">
+</a>
+
+<br>
+<br>
+
+Vueform is comprehensive **form development framework** for Vue.js. It supercharges and standardizes the entire form building process and takes care of everything from rendering to validation and processing. With our latest tool, the **Drag and Drop Form Builder**, you can allow your developers & non-tech workforce to build the most complex forms without coding.
+
+Feature highlights:
+- integrate Vueform **Drag and Drop Form Builder** into **any application**
+- save forms in **database** as a JSON
+- use your **own form elements** with **custom configuration** options
+- a complete theming and templating system with **Tailwind support**
+- 25+ form elements with **multi-file uploads**, date pickers and rich text editor
+- element **nesting** and **repeating**
+- **50+ validators** with async, dependent and custom rules
+- **conditional logic** on element & form level
+- breaking forms into **steps** with **form wizard**
+- **translating** form content and global i18n support.
+
+Learn more:
+- Builder: [https://builder.vueform.com](https://builder.vueform.com?ref=builder-vite-starter)
+- Framework: [https://vueform.com](https://vueform.com?ref=builder-vite-starter)
